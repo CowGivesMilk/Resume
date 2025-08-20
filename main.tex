@@ -1,0 +1,71 @@
+\documentclass[a4paper, 12pt]{article}
+
+% Page setup
+\usepackage[T1]{fontenc}
+\usepackage[margin=0.7in]{geometry}
+\pagestyle{empty}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{parskip} % Better spacing between paragraphs
+
+% Section formatting
+\titleformat{\section}{\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titleformat{\subsection}[runin]{\bfseries}{}{0em}{}[:]
+\setlist[itemize]{noitemsep, topsep=0pt, left=0.15in}
+\author{Nimesh Poudel}
+
+\newcommand{\name}{Nimesh Poudel}
+% Name and contact
+\newcommand{\resumeHeader}{
+\begin{center}
+{\LARGE \textbf{\name}}\\
+\texttt{Kathmandu | 9864562200 | nimeshpoudel89@gmail.com | \href{https://github.com/CowGivesMilk}{GitHub: CowGivesMilk}}
+\end{center}
+}
+
+\begin{document}
+\resumeHeader
+
+% EDUCATION
+\section*{Education}
+\textbf{Tribhuvan University, Kathmandu Engineering College}\\
+Bachelor of Engineering, Computer Engineering (Senior)\\
+\textbf{Relevant Coursework:} Object Oriented Programming, Data Structure and Algorithms,
+Distributed Systems, Software Engineering, Computer Networks and Security\\
+\textbf{Kathmandu Model College, Grade XII} \hfill \textit{2021}\\
+Science (Computer) \hfill \textit{GPA: 3.08}
+
+
+% PROJECTS
+\section*{Projects}
+\textbf{Sahayatri}, Minor Project, Dart Flutter \hfill \textit{2024}
+\begin{itemize}
+    \item Worked with a team of 3
+    \item Collaborated with design
+    \item Implemented custom route algorithm for busses
+    \item Testing to prevent catastrophic failure.
+\end{itemize}
+
+\textbf{Password Manager}, Personal Project \hfill \textit{July 2025 -- Present}
+\begin{itemize}
+    \item Solo Project.
+    \item Multi-platform Desktop Application
+\end{itemize}
+
+% Compedition
+\section*{Comepditions}
+\textbf{Competitive Coding}, Dristi 3.0, Winner \hfill \textit{January 2025}
+
+
+% SKILLS
+\section*{Skills}
+\begin{itemize}
+    \item \textbf{Design:} Figma
+    \item \textbf{Programming Languages:} C/C++, Python, MATLAB, Dart
+    \item \textbf{Framework \& Libraries:} Flutter, Cryptopp
+    \item \textbf{Scripting:} Bash
+    \item \textbf{Operating System:} Linux
+    \item \textbf{Database:} SQL
+\end{itemize}
+\end{document}
